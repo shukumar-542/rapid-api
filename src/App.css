@@ -1,0 +1,21 @@
+.input-area{
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 20px;
+}
+/* input{
+      margin-inline: 1rem;
+      margin-block: 2rem;
+      width: 50px;
+} */
+.element{
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+      align-items: center;
+      justify-content: center;
+      gap: 4rem;
+}
+.element img{
+      max-width: 250px;
+}
